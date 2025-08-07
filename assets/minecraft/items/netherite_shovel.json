@@ -1,0 +1,24 @@
+{
+    "model": {
+        "type": "composite",
+        "models": [
+            {"type": "model","model": "item/netherite_shovel"},
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "enchantments",
+                "value": [{"enchantments": "silk_touch"}],
+                "on_true": {"type": "model","model": "magnopack:silk_touch"},
+                "on_false": {"type": "empty"}
+            },
+            {
+                "type": "condition",
+                "property": "component",
+                "predicate": "enchantments",
+                "value": [{"enchantments": "fortune"}],
+                "on_true": {"type": "model","model": "magnopack:fortune"},
+                "on_false": {"type": "empty"}
+            }
+        ]
+    }
+}

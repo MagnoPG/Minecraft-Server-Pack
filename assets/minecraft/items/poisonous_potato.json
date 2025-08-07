@@ -1,0 +1,51 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "fallback": {"type": "model","model": "item/poisonous_potato"},
+        "cases": [
+            {
+                "when": "D4",
+                "model": {
+                    "type": "model",
+                    "model": "magnopack:di"
+                }
+            },
+            {
+                "when": "D6",
+                "model": {
+                    "type": "model",
+                    "model": "magnopack:di"
+                }
+            },
+            {
+                "when": "D8",
+                "model": {
+                    "type": "model",
+                    "model": "magnopack:di"
+                }
+            },
+            {
+                "when": "D10",
+                "model": {
+                    "type": "model",
+                    "model": "magnopack:di"
+                }
+            },
+            {
+                "when": "D12",
+                "model": {
+                    "type": "model",
+                    "model": "magnopack:di"
+                }
+            },
+            {
+                "when": "D20",
+                "model": {
+                    "type": "model",
+                    "model": "magnopack:di"
+                }
+            }
+        ]
+    }
+}
