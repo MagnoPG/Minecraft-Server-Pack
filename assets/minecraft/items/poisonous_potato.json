@@ -8,42 +8,42 @@
                 "when": "D4",
                 "model": {
                     "type": "model",
-                    "model": "magnopack:di"
+                    "model": "magnopack:di/d4"
                 }
             },
             {
                 "when": "D6",
                 "model": {
                     "type": "model",
-                    "model": "magnopack:di"
+                    "model": "magnopack:di/d6"
                 }
             },
             {
                 "when": "D8",
                 "model": {
                     "type": "model",
-                    "model": "magnopack:di"
+                    "model": "magnopack:di/d8"
                 }
             },
             {
                 "when": "D10",
                 "model": {
                     "type": "model",
-                    "model": "magnopack:di"
+                    "model": "magnopack:di/d10"
                 }
             },
             {
                 "when": "D12",
                 "model": {
                     "type": "model",
-                    "model": "magnopack:di"
+                    "model": "magnopack:di/d12"
                 }
             },
             {
                 "when": "D20",
                 "model": {
                     "type": "model",
-                    "model": "magnopack:di"
+                    "model": "magnopack:di/d20"
                 }
             }
         ]

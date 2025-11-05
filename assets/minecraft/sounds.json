@@ -1,0 +1,10 @@
+{
+    "magno/birds/birds": {
+         "sounds":[
+             {
+                 "name": "magnopack:birds/bird1",
+                 "weight": 1
+             }
+         ]
+    }
+}

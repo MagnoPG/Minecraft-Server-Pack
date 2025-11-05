@@ -6,7 +6,7 @@
         "value": {"flight_duration": 3},
         "on_true": {
             "type": "model",
-            "model": "magnopack:firework_rocket_3d"
+            "model": "magnopack:firework_rocket/firework_rocket_3d"
         },
 
         "on_false": {
@@ -16,7 +16,7 @@
             "value": {"flight_duration": 2},
             "on_true": {
                 "type": "model",
-                "model": "magnopack:firework_rocket_2d"
+                "model": "magnopack:firework_rocket/firework_rocket_2d"
             },
 
             "on_false": {

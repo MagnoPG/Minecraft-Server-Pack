@@ -8,7 +8,7 @@
                 "property": "component",
                 "predicate": "enchantments",
                 "value": [{"enchantments": "silk_touch"}],
-                "on_true": {"type": "model","model": "magnopack:silk_touch"},
+                "on_true": {"type": "model","model": "magnopack:tool/silk_touch"},
                 "on_false": {"type": "empty"}
             },
             {
@@ -16,7 +16,7 @@
                 "property": "component",
                 "predicate": "enchantments",
                 "value": [{"enchantments": "fortune"}],
-                "on_true": {"type": "model","model": "magnopack:fortune"},
+                "on_true": {"type": "model","model": "magnopack:tool/fortune"},
                 "on_false": {"type": "empty"}
             }
         ]
