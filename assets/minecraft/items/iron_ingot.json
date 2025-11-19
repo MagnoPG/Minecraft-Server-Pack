@@ -1,17 +1,35 @@
 {
     "model": {
-        "type": "condition",
+        "type": "select",
+        "fallback": {"type": "model","model": "item/iron_ingot"},
         "property": "component",
-        "predicate": "custom_data",
-        "value": {"chair":true},
-        "on_true": {
-            "type": "model",
-            "model": "magnopack:chair"
-        },
-
-        "on_false": {
-            "type": "model",
-            "model": "minecraft:item/iron_ingot"
-        }
+        "component": "custom_data",
+        "cases": [
+            {
+                "when": "{chair:1b}",
+                "model": {"type": "model",
+                "model": "magnopack:chair"}
+            },
+            {
+                "when": "{creeper:1b}",
+                "model": {"type": "model","model": "magnopack:creeper"}
+            },
+            {
+                "when": "{enderman:1b}",
+                "model": {"type": "model","model": "magnopack:enderman"}
+            },
+            {
+                "when": "{skeleton:1b}",
+                "model": {"type": "model","model": "magnopack:skeleton"}
+            },
+            {
+                "when": "{villager:1b}",
+                "model": {"type": "model","model": "magnopack:villager"}
+            },
+            {
+                "when": "{zombie:1b}",
+                "model": {"type": "model","model": "magnopack:zombie"}
+            }
+        ]
     }
 }

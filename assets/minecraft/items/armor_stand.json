@@ -1,0 +1,18 @@
+{
+    "model": {
+        "type": "select",
+        "property": "component",
+        "component": "custom_name",
+        "fallback": {"type": "model","model": "magnopack:armor_stand"},
+        "cases": [
+            {
+                "when": {"text": "Small"},
+                "model": {"type": "model","model": "magnopack:armor_stand_small"}
+            },
+            {
+                "when": {"text": "Waypoint"},
+                "model": {"type": "model","model": "magnopack:armor_stand_small"}
+            }
+        ]
+    }
+}
