@@ -1,0 +1,9 @@
+{
+  "near_distance": 64,
+  "sprites": [
+    "magnopack:mark_0",
+    "magnopack:mark_1",
+    "magnopack:mark_2",
+    "minecraft:default_3"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "layers": {
+        "humanoid": [
+            {"texture": "magnopack:bloody/chainmail"}
+        ],
+        "humanoid_leggings": [
+            {"texture": "magnopack:bloody/chainmail"}
+        ]
+    }
+}

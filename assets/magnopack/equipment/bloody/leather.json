@@ -1,0 +1,22 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "dyeable": {
+          "color_when_undyed": -6265536
+        },
+        "texture": "minecraft:leather"
+      },
+      {"texture": "magnopack:bloody/leather"}
+    ],
+    "humanoid_leggings": [
+      {
+        "dyeable": {
+          "color_when_undyed": -6265536
+        },
+        "texture": "minecraft:leather"
+      },
+      {"texture": "magnopack:bloody/leather"}
+    ]
+  }
+}

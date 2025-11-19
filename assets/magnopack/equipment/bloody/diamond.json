@@ -1,10 +1,10 @@
 {
     "layers": {
         "humanoid": [
-            {"texture": "magnopack:bloody/iron"}
+            {"texture": "magnopack:bloody/diamond"}
         ],
         "humanoid_leggings": [
-            {"texture": "magnopack:bloody/iron"}
+            {"texture": "magnopack:bloody/diamond"}
         ]
     }
 }

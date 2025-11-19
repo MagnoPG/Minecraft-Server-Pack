@@ -1,0 +1,10 @@
+{
+    "layers": {
+        "humanoid": [
+            {"texture": "magnopack:bloody/netherite"}
+        ],
+        "humanoid_leggings": [
+            {"texture": "magnopack:bloody/netherite"}
+        ]
+    }
+}
